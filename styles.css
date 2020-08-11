@@ -1,0 +1,152 @@
+body
+{
+    text-align: center;
+    font-family:'Merriweather', sans-serif;
+}
+h1
+{
+    color: Black;
+    font-size: 500%;
+    font-weight:bold;
+    margin:50 auto 0 auto;
+    font-family: 'Sacramento',cursive;
+}
+
+h2
+{
+    color: #66BFBF;
+    font-size: 3rem;
+    font-weight:bold;
+    text-decoration: underline;
+    line-height: 2;
+}
+h3
+{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color:Red;
+}
+p
+{
+    line-height: 2.5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+hr{
+    border: dotted #EAF6F6 8px;
+    border-bottom: None;
+    width: 5%;
+    margin:100px auto;
+}
+a
+{
+    margin: 10px;
+}
+a:hover
+{
+    color:purple;
+}
+
+
+.top_container
+{
+    background-color: #bbe1fa;
+    position: relative;
+    padding-top: 100px;
+}
+.profile
+{
+    padding:100px auto 100px auto ;
+    margin: 100px;
+}
+.intro
+{
+    text-align: left;
+    margin:auto;
+    width: 30%;
+
+}
+
+.skill-row
+{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.skill-row2
+{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: right;
+}
+.skill-image-left
+{
+    width:15%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-image-right
+{
+    width:15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.cloud_top
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.cloud_bottom
+{
+    position: absolute;
+    left: 300px;
+    right: 300px;
+}
+.cm
+{
+    text-align: left;
+    margin:auto;
+    width: 30%;
+}
+.footer-link
+{
+    color:#11999E;
+}
+.II
+{
+    color:black;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin: 100px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container
+{
+    background-color: #bbe1fa;
+    position: relative;
+    padding-top: 100px;
+}
